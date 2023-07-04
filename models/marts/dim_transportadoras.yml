@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: dim_transportadoras
+    description: Dimensão de transportadoras da Northwind.
+    columns:
+      - name: id_transportadora
+        description: Chave primária da tabela transportadora.
+        tests:
+          - unique
+          - not_null
